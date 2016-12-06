@@ -1,0 +1,19 @@
+{
+  "name": "bubu",
+  "version": "1.0.0",
+  "description": "return isFunction(wat) ? wat() : wat",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [],
+  "author": "Ya Zhuang <zhuangya@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.isfunction": "^3.0.8"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "xo": "^0.17.1"
+  }
+}
