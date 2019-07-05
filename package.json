@@ -13,7 +13,7 @@
     "lodash.isfunction": "^3.0.8"
   },
   "devDependencies": {
-    "ava": "^0.17.0",
-    "xo": "^0.17.1"
+    "ava": "^2.1.0",
+    "xo": "^0.24.0"
   }
 }
