@@ -1,21 +1,11 @@
-'use strict';
+"use strict";
+const assert = require("assert");
+const bubu = require(".");
 
-import test from 'ava';
-import bubu from './';
-
-test(t => {
-  t.is(bubu(1), 1);
-});
-
-test(t => {
-  t.deepEqual(bubu([]), []);
-});
-
-test(t => {
-  t.deepEqual(bubu({answer: 42}), {answer: 42});
-});
-
-
-test(t => {
-  t.is(bubu(() => 4), 4);
-});
+assert.strictEqual(bubu(1), 1);
+assert.deepStrictEqual(bubu([]), []);
+assert.deepStrictEqual(bubu({ answer: 42 }), { answer: 42 });
+assert.strictEqual(
+  bubu(() => 4),
+  4
+);
