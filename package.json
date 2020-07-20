@@ -1,6 +1,6 @@
 {
   "name": "bubu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "return isFunction(wat) ? wat() : wat",
   "main": "index.js",
   "scripts": {
